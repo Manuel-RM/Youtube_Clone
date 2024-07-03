@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	background: blue;
+	height: 80px;
+	width: 100%;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas: "aside main main";
+	grid-template-columns: 350px 1fr;
+	grid-template-rows: 1fr auto;
+	background-color: black;
+}
+
+main {
+	background: green;
+	grid-area: main;
+}
+
+aside {
+	background: red;
+	grid-area: aside;
+}
