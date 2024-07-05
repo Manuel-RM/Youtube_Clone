@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Youtube Clone</title>
+</head>
+
+<body>
+	<header>
+		<section class="header-left">
+			<button id="menu" onClick="showMenu()">
+				<img src="img/header/nav_icon.svg" alt="Button Menu" />
+			</button>
+			<a href="#">
+				<img class="logo" src="img/header/icon.svg" alt="Logo" />
+			</a>
+		</section>
+
+		<section class="header-search">
+			<input type="text" name="search" id="search" placeholder="Buscar">
+			<button>
+				<img src="img/header/search.svg" alt="Button Search" />
+			</button>
+		</section>
+
+		<section class="header-right">
+			<button>
+				<img src="img/header/upload.svg" alt="Button Upload" />
+			</button>
+			<button>
+				<img src="img/header/notifications.svg" alt="Button Notifications" />
+			</button>
+			<button>
+				<img src="img/header/profile.svg" alt="Button Profile" />
+			</button>
+		</section>
+	</header>
+
+	<main>
+		<div class="grid-player">
+			<nav id="menu-nav">
+				<ul>
+					<section>
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/home.svg" alt="Button Menu" />
+								Principal</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/shorts.svg" alt="Button Menu" />
+								Shorts</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/suscriptions.svg" alt="Button Menu" />
+								Subscripciones</a>
+						</article>
+					</section>
+
+					<section>
+						<h3>Tu</h3>
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/your_channel.svg" alt="Button Menu" />
+								Tu canal</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/history.svg" alt="Button Menu" />
+								Historial</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/playlist.svg" alt="Button Menu" />
+								Playlist</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/your_videos.svg" alt="Button Menu" />
+								Tus videos</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/see_later.svg" alt="Button Menu" />
+								Ver mas tarde</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/liked_videos.svg" alt="Button Menu" />
+								Videos que me gustan</a>
+						</article>
+					</section>
+
+					<section>
+						<h3>Suscripciones</h3>
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/you/see_later.svg" alt="Button Menu" />
+								Ver mas tarde</a>
+						</article>
+					</section>
+
+					<section>
+						<h3>Explorar</h3>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/trends.svg" alt="Button Menu" />
+								Tendencias</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/music.svg" alt="Button Menu" />
+								Musica</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/movies.svg" alt="Button Menu" />
+								Peliculas</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/live.svg" alt="Button Menu" />
+								En vivo</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/videogames.svg" alt="Button Menu" />
+								Videojuegos</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/news.svg" alt="Button Menu" />
+								Noticias</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/sports.svg" alt="Button Menu" />
+								Deportes</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/learning.svg" alt="Button Menu" />
+								Aprendizaje</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/explorer/podcasts.svg" alt="Button Menu" />
+								Podcasts</a>
+						</article>
+					</section>
+
+					<section>
+						<h3>Mas de Youtube</h3>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/moreYoutube/youtube_premium.svg" alt="Button Menu" />
+								Youtube Premium</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/moreYoutube/youtube_studio.svg" alt="Button Menu" />
+								Youtube Studio</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/moreYoutube/youtube_music.svg" alt="Button Menu" />
+								Youtube Music</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/moreYoutube/youtube_kids.svg" alt="Button Menu" />
+								Youtube Kids</a>
+						</article>
+
+					</section>
+
+					<section>
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/configuration.svg" alt="Button Menu" />
+								Configuracion</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/complaint_history.svg" alt="Button Menu" />
+								Historial de denuncias</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/help.svg" alt="Button Menu" />
+								Ayuda
+							</a>
+						</article>
+
+						<article class="article-nav">
+							<a href="#">
+								<img src="img/principal/send_comments.svg" alt="Button Menu" />
+								Enviar comentarios</a>
+						</article>
+
+					</section>
+				</ul>
+			</nav>
+
+			<main>
+				<section class="main-section">
+					<article class="main-card">
+						<img src="https://picsum.photos/300/200" alt="random photo" />
+						<div class="card-user">
+							<img src="https://picsum.photos/35" alt="">
+							<div class="card-content">
+								<h3>Estudiante elimino la base de datos como venganza</h3>
+								<span>midulive</span>
+								<p>32 K vistas - hace 11 horas</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="main-card">
+						<img src="https://picsum.photos/300/200" alt="random photo" />
+						<div class="card-user">
+							<img src="https://picsum.photos/35" alt="">
+							<div class="card-content">
+								<h3>Estudiante elimino la base de datos como venganza</h3>
+								<span>midulive</span>
+								<p>32 K vistas - hace 11 horas</p>
+							</div>
+						</div>
+					</article>
+				</section>
+			</main>
+
+			<aside>
+				<h1>Aqui es el aside</h1>
+			</aside>
+
+		</div>
+
+	</main>
+</body>
+
+</html>
